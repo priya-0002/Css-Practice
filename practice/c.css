@@ -1,20 +1,23 @@
-.parent{
-  background-color: blue;
-  height: 200vh;
-  position: relative;
-  
-}
-.one{
-  background-color: pink;
-  position: sticky;
-  top: 0px;
-  right:0px;
-  
+
+
+.m{
+ position:absolute;
+background-color: blue;
+padding:20px;
+color:blanchedalmond;
+z-index:3;
+
 
 }
-.two{
-background-color: red;
+.p{
+  position:absolute;
+  background-color: black;
+  padding:20px;
+  color:blanchedalmond;
+  
+  z-index:1;
+
+ 
 }
-.three{
-background-color: coral;
-}
+
+
